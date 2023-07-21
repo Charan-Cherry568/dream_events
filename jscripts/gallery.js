@@ -10,10 +10,10 @@ function addImage(number) {
   myLi.setAttribute("class", "gallery_card");
 
   var image = document.createElement('img');
-  image.setAttribute("src", "images/gallery/_ ("+1+").jpg")
+  image.setAttribute("src", "../images/gallery/_ ("+number+").jpg")
   image.addEventListener('click', () => {
     popup.style.display = "flex";
-    document.getElementById("main_image").setAttribute("src", "images/gallery/_ ("+number+").jpg");
+    document.getElementById("main_image").setAttribute("src", "../images/gallery/_ ("+number+").jpg");
     currentImage(number);
   });
 
@@ -23,7 +23,7 @@ function addImage(number) {
 }
 
 function previous_Image(path) {
-  var number = (path).replace("images/gallery/_ (", "");
+  var number = (path).replace("../images/gallery/_ (", "");
   number = (number).replace(").jpg", "");
   
   var image = document.getElementById('main_image');
@@ -31,12 +31,12 @@ function previous_Image(path) {
   currentImage(parseInt(number)-1);
 
   image.removeAttribute("src")
-  image.setAttribute("src", "images/gallery/_ ("+(parseInt(number)-1)+").jpg")
+  image.setAttribute("src", "../images/gallery/_ ("+(parseInt(number)-1)+").jpg")
 
 }
 
 function next_Image(path) {
-  var number = (path).replace("images/gallery/_ (", "");
+  var number = (path).replace("../images/gallery/_ (", "");
   number = (number).replace(").jpg", "");
   
   var image = document.getElementById('main_image');
@@ -44,7 +44,7 @@ function next_Image(path) {
   currentImage(parseInt(number)+1);
 
   image.removeAttribute("src")
-  image.setAttribute("src", "images/gallery/_ ("+(parseInt(number)+1)+").jpg")
+  image.setAttribute("src", "../images/gallery/_ ("+(parseInt(number)+1)+").jpg")
   
 
 }
