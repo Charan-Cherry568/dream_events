@@ -42,7 +42,7 @@ function mailWith(body){
 } 
 
 function mail(){ 
-  location.href="mailto:ashokdany713@gmail.com?subject=doubt ra"; 
+  location.href="mailto:ashokdany713@gmail.com?subject=doubt ra&body=dsjkfahklsdjfh"; 
 } 
 
 function openMenu() {
