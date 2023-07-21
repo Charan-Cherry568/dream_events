@@ -706,6 +706,10 @@ footer strong{
 		display: none;
 	}
 
+	#cover_photo{
+		height: 40%;
+	}
+
 	#menu{
 		display: block;
 	}
