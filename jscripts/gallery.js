@@ -11,7 +11,7 @@ function addImage(number) {
 
   var image = document.createElement('img');
   // image.setAttribute("src", "../main/images/gallery/_ ("+1+").jpg")
-  image.setAttribute("src", "../main/images/gallery/images.jpg")
+  image.setAttribute("src", "../images/gallery/images.jpg")
   image.addEventListener('click', () => {
     popup.style.display = "flex";
     document.getElementById("main_image").setAttribute("src", "../main/images/gallery/_ ("+number+").jpg");
