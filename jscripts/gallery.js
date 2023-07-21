@@ -14,7 +14,7 @@ function addImage(number) {
   image.setAttribute("src", "../images/gallery/images.jpg")
   image.addEventListener('click', () => {
     popup.style.display = "flex";
-    document.getElementById("main_image").setAttribute("src", "../main/images/gallery/_ ("+number+").jpg");
+    // document.getElementById("main_image").setAttribute("src", "../main/images/gallery/_ ("+number+").jpg");
     currentImage(number);
   });
 
@@ -32,7 +32,7 @@ function previous_Image(path) {
   currentImage(parseInt(number)-1);
 
   image.removeAttribute("src")
-  image.setAttribute("src", "../main/images/gallery/_ ("+(parseInt(number)-1)+").jpg")
+  // image.setAttribute("src", "../main/images/gallery/_ ("+(parseInt(number)-1)+").jpg")
 
 }
 
@@ -45,7 +45,7 @@ function next_Image(path) {
   currentImage(parseInt(number)+1);
 
   image.removeAttribute("src")
-  image.setAttribute("src", "../main/images/gallery/_ ("+(parseInt(number)+1)+").jpg")
+  // image.setAttribute("src", "../main/images/gallery/_ ("+(parseInt(number)+1)+").jpg")
   
 
 }
