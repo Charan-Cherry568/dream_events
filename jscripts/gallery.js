@@ -68,13 +68,13 @@ function closeImage() {
    popup.style.display = "none";
 }
 
-for (var i=1; i <= 36; i++) {
+for (var i=1; i <= 18; i++) {
   addImage(i);
 }
 
 document.getElementById("show_all").addEventListener('click', () => {
   document.getElementById("show_all").style.display = "none";
-  for (var i=37; i <= 136; i++) {
+  for (var i=19; i <= 135; i++) {
     addImage(i);
   }
 });
