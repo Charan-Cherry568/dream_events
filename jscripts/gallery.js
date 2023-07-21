@@ -10,7 +10,7 @@ function addImage(number) {
   myLi.setAttribute("class", "gallery_card");
 
   var image = document.createElement('img');
-  image.setAttribute("src", "./images/gallery/_ ("+number+").jpg")
+  image.setAttribute("src", "../../images/gallery/_ ("+1+").jpg")
   image.addEventListener('click', () => {
     popup.style.display = "flex";
     document.getElementById("main_image").setAttribute("src", "./images/gallery/_ ("+number+").jpg");
