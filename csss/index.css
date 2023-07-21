@@ -149,7 +149,7 @@ nav ul li a:hover::after{
 
 #cover_photo{
 	width: 100%;
-	height: 50vh;
+	height: 53vh;
 	object-fit: cover;
 }
 
