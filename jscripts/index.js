@@ -37,12 +37,12 @@ function sendEmail() {
 }
 
 function mailWith(body){ 
-  location.href="mailto:mercysunandha14@gmail.com&subject=Request for An Event Management&body="+body; 
+  location.href="mailto:ashokdany713@gmail.com?subject=Request for An Event Management&body="+body; 
   window.setTimeout(function () { alert("You will receive reply to this mail in 24 hours") }, 0); 
 } 
 
 function mail(){ 
-  location.href="mailto:ashokdany713@gmail.com?subject=doubt ra babu&body=dsjkfahklsdjfh"; 
+  location.href="mailto:ashokdany713@gmail.com?subject=Doubt Clarification&body=To, The Team Dream Events,"; 
 } 
 
 function openMenu() {
