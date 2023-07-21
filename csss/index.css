@@ -7,7 +7,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  	scroll-behavior: smooth;
 }
 
 nav{
@@ -149,7 +149,7 @@ nav ul li a:hover::after{
 
 #cover_photo{
 	width: 100%;
-	height: 25%;
+	height: 25vh;
 	object-fit: cover;
 }
 
@@ -707,7 +707,7 @@ footer strong{
 	}
 
 	#cover_photo{
-		height: 40%;
+		height: 40vh;
 	}
 
 	#menu{
