@@ -741,11 +741,15 @@ footer strong{
 	}
 
 	#over_cover p{
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 
 	#over_cover strong{
-		font-size: 1rem;
+		font-size: 1.3rem;
+	}
+
+	#over_cover img{
+		height: 30%;
 	}
 
 	#what_do{
@@ -921,11 +925,11 @@ footer strong{
 	}
 
 	#over_cover p{
-		font-size: 0.6rem;
+		font-size: 1rem;
 	}
 
 	#over_cover strong{
-		font-size: 0.6rem;
+		font-size: 1rem;
 	}
 
 	.contact{
