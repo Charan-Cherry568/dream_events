@@ -2,9 +2,8 @@ document.getElementById('more_cat').addEventListener('click', () => {
   location.replace("gallery.html");
 });
 
-   
 window.addEventListener('load', () => {
-  document.getElementById('splash').toggle('close');
+  document.querySelector('.splash').classList.toggle('close');
 }) 
 
 
