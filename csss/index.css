@@ -13,7 +13,6 @@ html {
 nav{
 	padding-left: 8px;
 	padding-right: 8px;
-	height: 80px;
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
