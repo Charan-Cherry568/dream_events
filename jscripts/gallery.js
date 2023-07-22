@@ -1,7 +1,7 @@
 var popup = document.getElementById('popup');
 var nextImage = document.getElementById("next_image");
 var previousImage = document.getElementById("previous_image");
-var i = 0;
+var i = -18;
 
 
 window.addEventListener('load', () => {
