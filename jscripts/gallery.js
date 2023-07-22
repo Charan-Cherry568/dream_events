@@ -23,7 +23,7 @@ function addImage(number) {
   });
   image.addEventListener('load', () => {
     i+=1;
-    document.getElementById("loading_text").innerHTML = "Loading("+i+"/18)";
+    document.getElementById("loading_text").innerHTML = "Loading("+i+"/36)";
   });
 
   myLi.appendChild(image);
