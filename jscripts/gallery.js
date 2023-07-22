@@ -1,6 +1,8 @@
 var popup = document.getElementById('popup');
 var nextImage = document.getElementById("next_image");
 var previousImage = document.getElementById("previous_image");
+var i = 0;
+
 
 window.addEventListener('load', () => {
   document.querySelector('.splash').classList.toggle('close');
@@ -18,6 +20,10 @@ function addImage(number) {
     popup.style.display = "flex";
     document.getElementById("main_image").setAttribute("src", "../dream_events/images/gallery/"+number+".jpg");
     currentImage(number);
+  });
+  image.addEventListener('load', () => {
+    i+=1;
+    document.getElementById("loading_text").innerHTML = "Loading("+i+"/18)";
   });
 
   myLi.appendChild(image);
