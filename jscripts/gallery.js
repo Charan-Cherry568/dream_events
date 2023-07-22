@@ -1,7 +1,10 @@
 var popup = document.getElementById('popup');
 var nextImage = document.getElementById("next_image");
 var previousImage = document.getElementById("previous_image");
-    
+
+window.addEventListener('load', () => {
+  document.querySelector('.splash').classList.toggle('close');
+}) 
 
 function addImage(number) {
 
