@@ -48,7 +48,7 @@ function mailWith(body){
 } 
 
 function mail(){ 
-  location.href="mailto:ashokdany713@gmail.com?subject=Doubt Clarification&body=To, The Team Dream Events,"; 
+  location.href="mailto:ashokdany713@gmail.com?subject=Doubt Clarification&body=To, %0d%0aThe Team Dream Events."; 
 } 
 
 function openMenu() {
