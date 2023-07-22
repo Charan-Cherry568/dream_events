@@ -11,16 +11,17 @@ function sendEmail() {
               String(document.getElementById("Pincode").value).trim() !=0 &&
               String(document.getElementById("ContactNumber").value).trim() !=0 ) {
 
-    var optional = String(document.getElementById("Options").value).trim();
+    var optional = "";
     
     if (optional.length != 0) {
-      optional = optional+" These are my extra optimizations."
-     }
-    var text = "Hello Sir,\n I am "+document.getElementById("FullName").value +
+      optional = String(document.getElementById("Options").value).trim()+" These are my extra optimizations."
+    }
+
+    var text = "Hello Sir,%0dI am "+document.getElementById("FullName").value +
               "  from "+document.getElementById("District")+" District ,"+"Pincode "+document.getElementById("Pincode")+". I am Looking for "+document.getElementById("EventType").value+
-              " Event Manager. I am interested in your team. \n"+
-              "I would like to make a DEAL."+optional+" you can contact me via Mobile No: "+document.getElementById("ContactNumber").value+
-              " or Mail. Looking forward for a quick reply. \nThank You.";
+              " Event Manager.%0dAnd I found your team interesting. \n"+
+              "%0dSo, I would like to make a DEAL for My Event."+optional+" You can contact me via Mobile No: "+document.getElementById("ContactNumber").value+
+              " or through Mail. Hopefully Looking forward for a quick reply.%0d%0dThank You.";
 
     mailWith(text);
     
